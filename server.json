@@ -1,0 +1,27 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.chinadoccheck/mcp",
+  "title": "ChinaDocCheck — 16-Country China Hague Apostille, USDOS Jurisdiction & 180-Day Validity Engine",
+  "description": "Verify 16-country China Hague Apostille rules, 180-day validity & USDOS jurisdiction.",
+  "version": "1.0.0",
+  "websiteUrl": "https://chinadoccheck.com",
+  "repository": {
+    "url": "https://github.com/AbigailDavised/chinadoccheck-mcp",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://chinadoccheck.com/icon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": [
+        "any"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://chinadoccheck.com/api/mcp"
+    }
+  ]
+}

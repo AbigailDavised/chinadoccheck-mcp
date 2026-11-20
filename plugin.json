@@ -1,0 +1,31 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "chinadoccheck",
+  "version": "1.0.0",
+  "description": "Official stateless MCP server for ChinaDocCheck.com — 16-country China Hague Apostille router, U.S. Federal USDOS vs State SOS matcher & 180-day police check radar.",
+  "homepage": "https://chinadoccheck.com",
+  "repository": "https://github.com/AbigailDavised/chinadoccheck-mcp",
+  "license": "MIT",
+  "author": {
+    "name": "Abigail Davised",
+    "email": "admin@chinadoccheck.com",
+    "url": "https://chinadoccheck.com"
+  },
+  "keywords": [
+    "china-visa",
+    "hague-apostille",
+    "fbi-background-check",
+    "usdos",
+    "safea",
+    "mcp"
+  ],
+  "extensions": {
+    "com.nousresearch.hermes": {
+      "servers": {
+        "chinadoccheck": {
+          "trust": "untrusted"
+        }
+      }
+    }
+  }
+}

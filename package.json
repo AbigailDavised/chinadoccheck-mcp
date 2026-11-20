@@ -1,0 +1,11 @@
+{
+  "name": "chinadoccheck-mcp",
+  "version": "1.0.0",
+  "description": "Official stateless MCP server for ChinaDocCheck.com — 16-country China Hague Apostille router, U.S. Federal USDOS vs State SOS matcher & 180-day police check radar.",
+  "homepage": "https://chinadoccheck.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbigailDavised/chinadoccheck-mcp.git"
+  },
+  "license": "MIT"
+}
